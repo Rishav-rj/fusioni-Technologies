@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fusioni Technologies</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- ---- Navbar ---- -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./Images/logo.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-2" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-2" href="#">MOVIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-2" href="#">TV SHOWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-2" href="#">WATCHLIST</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="form-search">
+              <input
+                class="input-search"
+                type="search"
+                placeholder="Search.."
+                aria-label="Search"
+              />
+              <img
+                src="./Images/search.png"
+                class="search-icon"
+                alt="search-Icon"
+              />
+            </div>
+            <button
+              class="btn btn-outline-success fw-bold text-light mx-4 px-3" style="background-color: #ed1f2b;"
+              type="submit"
+            >
+              SUBSCRIBE
+            </button>
+            <button class="btn fw-bold m-0 p-0" type="submit">LOGIN</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- ---- Hero-Section ---- -->
+    <div class="Hero">
+      <div
+        id="carouselMainAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="hero-text d-none d-sm-none d-md-block">
+              <img src="./Images/crown.png" alt="crown" />
+              <h1>Free Guy</h1>
+              <p>2021 <span>Action</span> 1hr : 55mins</p>
+              <p>
+                When a bank teller discovers he's actually a background player
+                in an open-world video game, he decides to become the hero of
+                his own story - one that he can rewrite...
+              </p>
+              <button class="btn text-light bg-danger">More Detail</button>
+            </div>
+            <div class="hero-text-sm d-block d-sm-none">
+              <img src="./Images/crown.png" alt="crown" />
+              <h2>Free Guy</h2>
+              <p>
+                2021 <span>Action</span> <br />
+                1hr : 55mins
+              </p>
+            </div>
+            <img
+              src="./Images/Hero-img-1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="hero-text d-none d-sm-none d-md-block">
+              <img src="./Images/crown.png" alt="crown" />
+              <h1>Free Guy</h1>
+              <p>2021 <span>Action</span> 1hr : 55mins</p>
+              <p>
+                When a bank teller discovers he's actually a background player
+                in an open-world video game, he decides to become the hero of
+                his own story - one that he can rewrite...
+              </p>
+              <button class="btn text-light bg-danger">More Detail</button>
+            </div>
+            <div class="hero-text-sm d-block d-sm-none">
+              <img src="./Images/crown.png" alt="crown" />
+              <h2>Free Guy</h2>
+              <p>
+                2021 <span>Action</span> <br />
+                1hr : 55mins
+              </p>
+            </div>
+            <img
+              src="./Images/Hero-img-1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="hero-text d-none d-sm-none d-md-block">
+              <img src="./Images/crown.png" alt="crown" />
+              <h1>Free Guy</h1>
+              <p>2021 <span>Action</span> 1hr : 55mins</p>
+              <p>
+                When a bank teller discovers he's actually a background player
+                in an open-world video game, he decides to become the hero of
+                his own story - one that he can rewrite...
+              </p>
+              <button class="btn text-light">More Detail</button>
+            </div>
+            <div class="hero-text-sm d-block d-sm-none">
+              <img src="./Images/crown.png" alt="crown" />
+              <h2>Free Guy</h2>
+              <p>
+                2021 <span>Action</span> <br />
+                1hr : 55mins
+              </p>
+            </div>
+            <img
+              src="./Images/Hero-img-1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselMainAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselMainAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ---- Trending ---- -->
+    <div class="trending">
+      <div class="trending-text">
+        <p>Trending Now</p>
+        <p>View All</p>
+      </div>
+      <div id="carousel-1" class="carousel wrap">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Trending-4.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/crown-white.png" class="crown" alt="crown" />
+            <img src="./Images/Trending-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Trending-4.png" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ---- Popular Action ----  -->
+
+    <div class="trending">
+      <div class="trending-text">
+        <p>Popular in Action</p>
+        <p>View All</p>
+      </div>
+      <div id="carousel-2" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/Action-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-4.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="./Images/Action-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Action-4.png" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-2"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-2"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ----- popular Movies ----  -->
+
+    <div class="trending">
+      <div class="trending-text">
+        <p>Popular Movies</p>
+        <p>View All</p>
+      </div>
+      <div id="carousel-3" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/Movies-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-4.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="./Images/Movies-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Movies-4.png" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-3"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-3"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ---- TV Shows ---- -->
+
+    <div class="trending">
+      <div class="trending-text">
+        <p>TV Popular Shows</p>
+        <p>View All</p>
+      </div>
+      <div id="carousel-4" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/TV-Shows-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-4.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="./Images/TV-Shows-1.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-2.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-3.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TV-Shows-4.png" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-4"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-4"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ---- Movie Screen Banner ---- -->
+  <div class="card-container">
+    <div class="card">
+          <div class="card-body">
+            <h2 class="card-title fw-bold fs-1">Movies and TV Shows for
+              Best Friends</h2>
+            <p class="card-text fs-4 d-none d-sm-block">Stream unlimited movies and TV shows on
+              Smart TVs, FireTV and Roku Apps.</p>
+          </div>
+        <div class="col-md-12">
+          <img src="./Images/movieBanner.png" alt="...">
+          <button class="fs-4">Watch now:</button>
+          <div class="watch-on">
+            <img src="./Images/roku.png" alt="roku">
+            <img src="./Images/firetv.png" alt="fireTV">
+          </div>
+
+        </div>
+    </div>
+  </div>
+    
+
+  <!-- ----- Footer -----  -->
+
+
+
+  <div id="footer">
+    <img src="./Images/footer line.png" alt="">
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #000000"
+            >
+  
+      <section class="footer-container mb-3">
+        <div class="container-fluid text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-3">Resources</h6>
+              <p>
+                <a href="#!" class="text-white">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Movies</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">TV Shows</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Watchlist</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-3">Movies Categories</h6>
+              <p>
+                <a href="#!" class="text-white">Popular Movies</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Sci-Fi Movies</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Horror Movies</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Action Movies</a>
+              </p>
+            </div>
+      
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-3">TV Shows</h6>
+              <p>
+                <a href="#!" class="text-white">TV Popular Shows</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shows We Recommend</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Science Fiction</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Horror Shows</a>
+              </p>
+            </div>
+  
+            
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        
+              <h6 class="text-uppercase fw-bold mb-3">Support</h6>
+                  <p>
+                    <a href="#!" class="text-white">My Account</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Login</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Subscribe Now</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Watch on TV</a>
+                  </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+           class="text-left footer-bottom"
+           style="background-color: #131722"
+           >
+        ©AxioxTV 2022. All Rights Reserved
+        <div class="social-media">
+          <img src="./Images/Facebook.png" alt="facebook">
+          <img src="./Images/Twitter.png" alt="twitter">
+          <img src="./Images/Instagram.png" alt="instagram">
+          <img src="./Images/YouTube.png" alt="youtube">
+        </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+  </div>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
