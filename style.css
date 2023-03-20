@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 90px;
 }
 
 .input-search {
@@ -38,27 +38,27 @@ body {
   padding-top: 20px;
 }
 
-#carouselMainAutoplaying {
+#carouselAutoplaying {
   display: flex;
   justify-content: center;
   width: 100vw;
   z-index: 1 !important;
 }
 
-#carouselMainAutoplaying .carousel-inner {
+#carouselAutoplaying .carousel-inner {
   overflow: visible !important;
   width: 90vw !important;
 }
 
-#carouselMainAutoplaying .carousel-item {
+#carouselAutoplaying .carousel-item {
   position: relative;
 }
 
-#carouselMainAutoplaying .carousel-control-prev-icon {
+#carouselAutoplaying .carousel-control-prev-icon {
   position: absolute;
   left: 0px;
 }
-#carouselMainAutoplaying .carousel-control-next-icon {
+#carouselAutoplaying .carousel-control-next-icon {
   position: absolute;
   right: 0px;
 }
@@ -271,4 +271,5 @@ body {
     width: 25px;
     height: 25px;
     margin-left: 20px;
+    cursor: pointer;
 }
