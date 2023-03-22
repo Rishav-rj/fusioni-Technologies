@@ -378,6 +378,10 @@ body {
 }
 
 @media only screen and (max-width: 1158px) {
+  .navbar-nav .nav-link{
+    margin-right:0px !important;
+  }
+  
   .card .card-body h2 {
     font-size: 25px !important;
   }
